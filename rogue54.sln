@@ -1,6 +1,13 @@
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual C++ Express 2005
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rogue54", "rogue54.vcproj", "{9EA0D326-8097-4ADA-82EA-4DB1F5CAA8F6}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rogue54", "rogue54.vcxproj", "{9EA0D326-8097-4ADA-82EA-4DB1F5CAA8F6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D42290E7-54EA-4F08-A2BA-BE81A2D90208} = {D42290E7-54EA-4F08-A2BA-BE81A2D90208}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pdcurses", "..\pdcurses\pdcurs.vcxproj", "{D42290E7-54EA-4F08-A2BA-BE81A2D90208}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,6 +19,10 @@ Global
 		{9EA0D326-8097-4ADA-82EA-4DB1F5CAA8F6}.Debug|Win32.Build.0 = Debug|Win32
 		{9EA0D326-8097-4ADA-82EA-4DB1F5CAA8F6}.Release|Win32.ActiveCfg = Release|Win32
 		{9EA0D326-8097-4ADA-82EA-4DB1F5CAA8F6}.Release|Win32.Build.0 = Release|Win32
+		{D42290E7-54EA-4F08-A2BA-BE81A2D90208}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D42290E7-54EA-4F08-A2BA-BE81A2D90208}.Debug|Win32.Build.0 = Debug|Win32
+		{D42290E7-54EA-4F08-A2BA-BE81A2D90208}.Release|Win32.ActiveCfg = Release|Win32
+		{D42290E7-54EA-4F08-A2BA-BE81A2D90208}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
